@@ -12,13 +12,6 @@ Run:
     composer require "adiafora/laravel-postgres-naturalsort"
 ```
 
-Publish the migration:
-
-```php
-    php artisan vendor:publish --provider="Adiafora\NaturalSort\NaturalSortServiceProvider"
-```
-
-
 Run migration on the package:
 
 ```php
