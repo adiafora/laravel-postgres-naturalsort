@@ -1,4 +1,4 @@
-php-api-client
+laravel-postgres-naturalsort
 =======================================
 
 This simple package will help you add natural sorting to your Eloquent models if you use PostgreSQL.
