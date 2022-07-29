@@ -1,0 +1,37 @@
+{
+  "name": "adiafora/laravel-postgres-naturalsort",
+  "description": "This is a just simple example of how you can add natural sorting to your Eloquent models if you use Postgres.",
+  "keywords": [
+    "laravel",
+    "PostgreSQL",
+    "php",
+    "natural sort"
+  ],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Zhidkov",
+      "email": "zhidkoff@list.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "~6.0"
+  },
+  "autoload": {
+    "classmap": [
+      "migrations"
+    ],
+    "psr-4": {
+      "Adiafora\\NaturalSort\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Adiafora\\NaturalSort\\NaturalSortServiceProvider"
+      ]
+    }
+  }
+}
